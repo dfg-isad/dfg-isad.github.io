@@ -95,6 +95,7 @@ gulp.task('default', ['css', 'js', 'vendor']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
+    notify: false,
     server: {
       baseDir: "./"
     }
