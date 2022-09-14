@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>ISAD - About</title>
+  <title>ISAD-2 - About</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h2>About ISAD</h2>
+            <h2>About ISAD-2</h2>
             <!--<span class="subheading">These are our goals</span>-->
           </div>
         </div>
@@ -93,16 +93,24 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>In music information retrieval, the development of computational methods for analyzing, segmenting, and classifying music signals is of fundamental importance. One prominent task is known as singing voice detection. The objective is to
-          automatically locate all sections of a given music recording where a main singer is active. Although this task seems to be simple for human listeners, the detection of the singing voice by computational methods remains difficult due to
-          complex superpositions of sound sources that typically occur in music where the singing voice interacts with accompanying instruments. Extending this scenario, the goal of automatic instrument recognition is to identify all performing
-          instruments in a given music recording and to derive a segmentation into sections with homogeneous instrumentation. Other related problems deal with finding all monophonic sections, identifying all solo parts or sections with a predominant
-          melody, or locating sections with a specific timbre.</p>
-        <p>In this project, motivated by these segmentation problems, we want to adopt a comprehensive perspective. Our goal is to explore fundamental techniques and computational tools for detecting sound sources or characteristic sound events that
-          are present in a given music recording. To cope with a wide range of musical properties and complex superpositions of different sound sources, we want to focus on informed approaches that exploit various types of additional knowledge. Such
-          knowledge may be given in the form of musical parameters (e.g., number of instruments, score information), sound examples (e.g., instrument samples, representative sections), or user input (e.g., annotations, interactive feedback). By
-          combining audio segmentation, detection, and classification techniques, one main objective is to develop novel approaches that can efficiently adapt to requirements within specific application scenarios. To test and evaluate our activity
-          detection algorithms, we consider various challenging music scenarios including Western classical music, jazz music, and opera recordings. </p>
+        <p>In music information retrieval (MIR), the development of computational methods for analyzing,
+segmenting, and classifying music signals is of fundamental importance. In this project's first phase
+(initial proposal), we explored fundamental techniques for detecting characteristic sound events present
+in a given music recording. Here, our focus was on informed approaches that exploit musical knowledge in
+the form of score information, instrument samples, or musically salient sections. We considered concrete
+tasks such as locating audio sections with a specific timbre or instrument, identifying monophonic themes
+in complex polyphonic music recordings, and classifying music genres or playing styles based on melodic
+contours. We tested our approaches within complex music scenarios, including instrumental Western
+classical music, jazz, and opera recordings. </p>
+        <p>In the second phase of the project (renewal proposal), our
+goals will be significantly extended. First, we want to go beyond the music scenario by considering environmental
+sounds as a second challenging audio domain. As a central methodology, we plan to explore
+and combine the benefits of model-based and data-driven techniques to learn task-specic sound event
+representations. Furthermore, we will investigate hierarchical approaches to simultaneously incorporate,
+exploit, learn, and capture sound events that manifest on dierent temporal scales and belong to hierarchically
+ordered categories. An overarching goal of the project's second phase is to develop explainable
+deep learning models that provide a better understanding of the structural and acoustic properties of
+sound events. </p>
       </div>
     </div>
   </div>
